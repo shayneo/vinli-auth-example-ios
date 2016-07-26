@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ADCCCE11D47F97E00416FE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCCCE01D47F97E00416FE0 /* main.m */; };
+		7ADCCCE41D47F97E00416FE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCCCE31D47F97E00416FE0 /* AppDelegate.m */; };
+		7ADCCCE71D47F97E00416FE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCCCE61D47F97E00416FE0 /* ViewController.m */; };
+		7ADCCCEA1D47F97E00416FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADCCCE81D47F97E00416FE0 /* Main.storyboard */; };
+		7ADCCCED1D47F97E00416FE0 /* Vinli_Auth_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCCCEB1D47F97E00416FE0 /* Vinli_Auth_Example.xcdatamodeld */; };
+		7ADCCCEF1D47F97E00416FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ADCCCEE1D47F97E00416FE0 /* Assets.xcassets */; };
+		7ADCCCF21D47F97E00416FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADCCCF01D47F97E00416FE0 /* LaunchScreen.storyboard */; };
+		7ADCCCFD1D47F97E00416FE0 /* Vinli_Auth_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCCCFC1D47F97E00416FE0 /* Vinli_Auth_ExampleTests.m */; };
+		7ADCCD081D47F97E00416FE0 /* Vinli_Auth_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCCD071D47F97E00416FE0 /* Vinli_Auth_ExampleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ADCCCF91D47F97E00416FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ADCCCD41D47F97E00416FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ADCCCDB1D47F97E00416FE0;
+			remoteInfo = "Vinli-Auth-Example";
+		};
+		7ADCCD041D47F97E00416FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ADCCCD41D47F97E00416FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ADCCCDB1D47F97E00416FE0;
+			remoteInfo = "Vinli-Auth-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7ADCCCDC1D47F97E00416FE0 /* Vinli-Auth-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vinli-Auth-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADCCCE01D47F97E00416FE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ADCCCE21D47F97E00416FE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7ADCCCE31D47F97E00416FE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7ADCCCE51D47F97E00416FE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7ADCCCE61D47F97E00416FE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7ADCCCE91D47F97E00416FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ADCCCEC1D47F97E00416FE0 /* Vinli_Auth_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vinli_Auth_Example.xcdatamodel; sourceTree = "<group>"; };
+		7ADCCCEE1D47F97E00416FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ADCCCF11D47F97E00416FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ADCCCF31D47F97E00416FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADCCCF81D47F97E00416FE0 /* Vinli-Auth-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vinli-Auth-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADCCCFC1D47F97E00416FE0 /* Vinli_Auth_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vinli_Auth_ExampleTests.m; sourceTree = "<group>"; };
+		7ADCCCFE1D47F97E00416FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADCCD031D47F97E00416FE0 /* Vinli-Auth-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vinli-Auth-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADCCD071D47F97E00416FE0 /* Vinli_Auth_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vinli_Auth_ExampleUITests.m; sourceTree = "<group>"; };
+		7ADCCD091D47F97E00416FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ADCCCD91D47F97E00416FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADCCCF51D47F97E00416FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADCCD001D47F97E00416FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ADCCCD31D47F97E00416FE0 = {
+			isa = PBXGroup;
+			children = (
+				7ADCCCDE1D47F97E00416FE0 /* Vinli-Auth-Example */,
+				7ADCCCFB1D47F97E00416FE0 /* Vinli-Auth-ExampleTests */,
+				7ADCCD061D47F97E00416FE0 /* Vinli-Auth-ExampleUITests */,
+				7ADCCCDD1D47F97E00416FE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ADCCCDD1D47F97E00416FE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ADCCCDC1D47F97E00416FE0 /* Vinli-Auth-Example.app */,
+				7ADCCCF81D47F97E00416FE0 /* Vinli-Auth-ExampleTests.xctest */,
+				7ADCCD031D47F97E00416FE0 /* Vinli-Auth-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ADCCCDE1D47F97E00416FE0 /* Vinli-Auth-Example */ = {
+			isa = PBXGroup;
+			children = (
+				7ADCCCE21D47F97E00416FE0 /* AppDelegate.h */,
+				7ADCCCE31D47F97E00416FE0 /* AppDelegate.m */,
+				7ADCCCE51D47F97E00416FE0 /* ViewController.h */,
+				7ADCCCE61D47F97E00416FE0 /* ViewController.m */,
+				7ADCCCE81D47F97E00416FE0 /* Main.storyboard */,
+				7ADCCCEE1D47F97E00416FE0 /* Assets.xcassets */,
+				7ADCCCF01D47F97E00416FE0 /* LaunchScreen.storyboard */,
+				7ADCCCF31D47F97E00416FE0 /* Info.plist */,
+				7ADCCCEB1D47F97E00416FE0 /* Vinli_Auth_Example.xcdatamodeld */,
+				7ADCCCDF1D47F97E00416FE0 /* Supporting Files */,
+			);
+			path = "Vinli-Auth-Example";
+			sourceTree = "<group>";
+		};
+		7ADCCCDF1D47F97E00416FE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ADCCCE01D47F97E00416FE0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ADCCCFB1D47F97E00416FE0 /* Vinli-Auth-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7ADCCCFC1D47F97E00416FE0 /* Vinli_Auth_ExampleTests.m */,
+				7ADCCCFE1D47F97E00416FE0 /* Info.plist */,
+			);
+			path = "Vinli-Auth-ExampleTests";
+			sourceTree = "<group>";
+		};
+		7ADCCD061D47F97E00416FE0 /* Vinli-Auth-ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7ADCCD071D47F97E00416FE0 /* Vinli_Auth_ExampleUITests.m */,
+				7ADCCD091D47F97E00416FE0 /* Info.plist */,
+			);
+			path = "Vinli-Auth-ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ADCCCDB1D47F97E00416FE0 /* Vinli-Auth-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADCCD0C1D47F97E00416FE0 /* Build configuration list for PBXNativeTarget "Vinli-Auth-Example" */;
+			buildPhases = (
+				7ADCCCD81D47F97E00416FE0 /* Sources */,
+				7ADCCCD91D47F97E00416FE0 /* Frameworks */,
+				7ADCCCDA1D47F97E00416FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vinli-Auth-Example";
+			productName = "Vinli-Auth-Example";
+			productReference = 7ADCCCDC1D47F97E00416FE0 /* Vinli-Auth-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ADCCCF71D47F97E00416FE0 /* Vinli-Auth-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADCCD0F1D47F97E00416FE0 /* Build configuration list for PBXNativeTarget "Vinli-Auth-ExampleTests" */;
+			buildPhases = (
+				7ADCCCF41D47F97E00416FE0 /* Sources */,
+				7ADCCCF51D47F97E00416FE0 /* Frameworks */,
+				7ADCCCF61D47F97E00416FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ADCCCFA1D47F97E00416FE0 /* PBXTargetDependency */,
+			);
+			name = "Vinli-Auth-ExampleTests";
+			productName = "Vinli-Auth-ExampleTests";
+			productReference = 7ADCCCF81D47F97E00416FE0 /* Vinli-Auth-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7ADCCD021D47F97E00416FE0 /* Vinli-Auth-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADCCD121D47F97E00416FE0 /* Build configuration list for PBXNativeTarget "Vinli-Auth-ExampleUITests" */;
+			buildPhases = (
+				7ADCCCFF1D47F97E00416FE0 /* Sources */,
+				7ADCCD001D47F97E00416FE0 /* Frameworks */,
+				7ADCCD011D47F97E00416FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ADCCD051D47F97E00416FE0 /* PBXTargetDependency */,
+			);
+			name = "Vinli-Auth-ExampleUITests";
+			productName = "Vinli-Auth-ExampleUITests";
+			productReference = 7ADCCD031D47F97E00416FE0 /* Vinli-Auth-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ADCCCD41D47F97E00416FE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Shayne O'Sullivan";
+				TargetAttributes = {
+					7ADCCCDB1D47F97E00416FE0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J6ESAZTUVU;
+						DevelopmentTeamName = "Shayne O'Sullivan (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					7ADCCCF71D47F97E00416FE0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J6ESAZTUVU;
+						DevelopmentTeamName = "Shayne O'Sullivan (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7ADCCCDB1D47F97E00416FE0;
+					};
+					7ADCCD021D47F97E00416FE0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J6ESAZTUVU;
+						DevelopmentTeamName = "Shayne O'Sullivan (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7ADCCCDB1D47F97E00416FE0;
+					};
+				};
+			};
+			buildConfigurationList = 7ADCCCD71D47F97E00416FE0 /* Build configuration list for PBXProject "Vinli-Auth-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ADCCCD31D47F97E00416FE0;
+			productRefGroup = 7ADCCCDD1D47F97E00416FE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ADCCCDB1D47F97E00416FE0 /* Vinli-Auth-Example */,
+				7ADCCCF71D47F97E00416FE0 /* Vinli-Auth-ExampleTests */,
+				7ADCCD021D47F97E00416FE0 /* Vinli-Auth-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ADCCCDA1D47F97E00416FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADCCCF21D47F97E00416FE0 /* LaunchScreen.storyboard in Resources */,
+				7ADCCCEF1D47F97E00416FE0 /* Assets.xcassets in Resources */,
+				7ADCCCEA1D47F97E00416FE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADCCCF61D47F97E00416FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADCCD011D47F97E00416FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ADCCCD81D47F97E00416FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADCCCE71D47F97E00416FE0 /* ViewController.m in Sources */,
+				7ADCCCED1D47F97E00416FE0 /* Vinli_Auth_Example.xcdatamodeld in Sources */,
+				7ADCCCE41D47F97E00416FE0 /* AppDelegate.m in Sources */,
+				7ADCCCE11D47F97E00416FE0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADCCCF41D47F97E00416FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADCCCFD1D47F97E00416FE0 /* Vinli_Auth_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADCCCFF1D47F97E00416FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADCCD081D47F97E00416FE0 /* Vinli_Auth_ExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ADCCCFA1D47F97E00416FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ADCCCDB1D47F97E00416FE0 /* Vinli-Auth-Example */;
+			targetProxy = 7ADCCCF91D47F97E00416FE0 /* PBXContainerItemProxy */;
+		};
+		7ADCCD051D47F97E00416FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ADCCCDB1D47F97E00416FE0 /* Vinli-Auth-Example */;
+			targetProxy = 7ADCCD041D47F97E00416FE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ADCCCE81D47F97E00416FE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ADCCCE91D47F97E00416FE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ADCCCF01D47F97E00416FE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ADCCCF11D47F97E00416FE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ADCCD0A1D47F97E00416FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ADCCD0B1D47F97E00416FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ADCCD0D1D47F97E00416FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vinli-Auth-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shayne.Vinli-Auth-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7ADCCD0E1D47F97E00416FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vinli-Auth-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shayne.Vinli-Auth-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7ADCCD101D47F97E00416FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Vinli-Auth-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shayne.Vinli-Auth-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vinli-Auth-Example.app/Vinli-Auth-Example";
+			};
+			name = Debug;
+		};
+		7ADCCD111D47F97E00416FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Vinli-Auth-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shayne.Vinli-Auth-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vinli-Auth-Example.app/Vinli-Auth-Example";
+			};
+			name = Release;
+		};
+		7ADCCD131D47F97E00416FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Vinli-Auth-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shayne.Vinli-Auth-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Vinli-Auth-Example";
+			};
+			name = Debug;
+		};
+		7ADCCD141D47F97E00416FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Vinli-Auth-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shayne.Vinli-Auth-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Vinli-Auth-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ADCCCD71D47F97E00416FE0 /* Build configuration list for PBXProject "Vinli-Auth-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADCCD0A1D47F97E00416FE0 /* Debug */,
+				7ADCCD0B1D47F97E00416FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADCCD0C1D47F97E00416FE0 /* Build configuration list for PBXNativeTarget "Vinli-Auth-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADCCD0D1D47F97E00416FE0 /* Debug */,
+				7ADCCD0E1D47F97E00416FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7ADCCD0F1D47F97E00416FE0 /* Build configuration list for PBXNativeTarget "Vinli-Auth-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADCCD101D47F97E00416FE0 /* Debug */,
+				7ADCCD111D47F97E00416FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7ADCCD121D47F97E00416FE0 /* Build configuration list for PBXNativeTarget "Vinli-Auth-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADCCD131D47F97E00416FE0 /* Debug */,
+				7ADCCD141D47F97E00416FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7ADCCCEB1D47F97E00416FE0 /* Vinli_Auth_Example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7ADCCCEC1D47F97E00416FE0 /* Vinli_Auth_Example.xcdatamodel */,
+			);
+			currentVersion = 7ADCCCEC1D47F97E00416FE0 /* Vinli_Auth_Example.xcdatamodel */;
+			path = Vinli_Auth_Example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7ADCCCD41D47F97E00416FE0 /* Project object */;
+}

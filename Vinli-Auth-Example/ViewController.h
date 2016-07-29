@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <VinliSDK.h>
 
 @interface ViewController : UIViewController
-
+@property (strong, nonatomic) VLService *vlService;
 
 @end
 

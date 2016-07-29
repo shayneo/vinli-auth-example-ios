@@ -63,7 +63,7 @@ Now let's head over to the View Controller that's handling Vinli Login. Add this
         _vlService = [[VLService alloc] initWithSession:[VLSessionManager currentSession]];
 
     } else {
-        [self loginWithVinli];";
+        [self loginWithVinli];
     }
 }
 ```

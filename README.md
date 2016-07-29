@@ -61,12 +61,9 @@ Now let's head over to the View Controller that's handling Vinli Login. Add this
     // If we are already logged in, we can create a VLService and continue with the app.
     if([VLSessionManager loggedIn]){
         _vlService = [[VLService alloc] initWithSession:[VLSessionManager currentSession]];
-        _StatusView.backgroundColor = [UIColor greenColor];
-        _LoginStatusLabel.text = @"Logged in, yay!";
 
     } else {
-        _StatusView.backgroundColor = [UIColor redColor];
-        _LoginStatusLabel.text = @"Not Logged In.";
+        [self loginWithVinli];";
     }
 }
 ```
